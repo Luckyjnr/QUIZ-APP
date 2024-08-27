@@ -1,12 +1,12 @@
 export const jsQuestions = [
     {
         id: 1,
-        question: "What is the correct syntax to create a function in JavaScript?",
+        question: "What is javascript primarily used for?",
         options: [
-            { choice: "function myFunction()", isCorrect: true },
-            { choice: "function = myFunction()", isCorrect: false },
-            { choice: "def myFunction()", isCorrect: false },
-            { choice: "function: myFunction()", isCorrect: false }
+            { choice: "To create interactive effects on websites.", isCorrect: true },
+            { choice: "To create fancy styles on websites.", isCorrect: false },
+            { choice: "To give your websites Colors.", isCorrect: false },
+            { choice: "As a tool.", isCorrect: false }
         ]
     },
     {
@@ -31,12 +31,12 @@ export const jsQuestions = [
     },
     {
         id: 4,
-        question: "What does 'typeof' operator return in JavaScript?",
+        question: "What keyword is used to define a function.?",
         options: [
-            { choice: "The type of the variable", isCorrect: true },
-            { choice: "The value of the variable", isCorrect: false },
-            { choice: "The length of the variable", isCorrect: false },
-            { choice: "The scope of the variable", isCorrect: false }
+            { choice: "Function", isCorrect: true },
+            { choice: "Var", isCorrect: false },
+            { choice: "Let", isCorrect: false },
+            { choice: "Const", isCorrect: false }
         ]
     },
     {
@@ -91,12 +91,12 @@ export const jsQuestions = [
     },
     {
         id: 10,
-        question: "Which method is used to remove the last element from an array?",
+        question: "What keyword is used to check if a condition is true or false.?",
         options: [
-            { choice: "pop()", isCorrect: true },
-            { choice: "push()", isCorrect: false },
-            { choice: "shift()", isCorrect: false },
-            { choice: "unshift()", isCorrect: false }
+            { choice: "if", isCorrect: true },
+            { choice: "false", isCorrect: false },
+            { choice: "true", isCorrect: false },
+            { choice: "let", isCorrect: false }
         ]
     },
     {
@@ -111,12 +111,12 @@ export const jsQuestions = [
     },
     {
         id: 12,
-        question: "Which function is used to parse a JSON string into a JavaScript object?",
+        question: "What is a array in javascript?",
         options: [
-            { choice: "JSON.parse()", isCorrect: true },
-            { choice: "JSON.stringify()", isCorrect: false },
-            { choice: "JSON.convert()", isCorrect: false },
-            { choice: "JSON.objectify()", isCorrect: false }
+            { choice: "a collection of element stored in a single variable", isCorrect: true },
+            { choice: "a collection of numbers stored in a box.", isCorrect: false },
+            { choice: "a javascript notation", isCorrect: false },
+            { choice: "a javascript format.", isCorrect: false }
         ]
     },
     {
@@ -221,11 +221,11 @@ export const jsQuestions = [
     },
     {
         id: 23,
-        question: "What is the output of the following code: `console.log(typeof NaN);`?",
+        question: "What does 'Nan' stands for?",
         options: [
-            { choice: "number", isCorrect: true },
-            { choice: "NaN", isCorrect: false },
-            { choice: "undefined", isCorrect: false },
+            { choice: "Not a number", isCorrect: true },
+            { choice: "Nota name", isCorrect: false },
+            { choice: "Not a notation", isCorrect: false },
             { choice: "null", isCorrect: false }
         ]
     },
@@ -311,10 +311,10 @@ export const jsQuestions = [
     },
     {
         id: 32,
-        question: "What will the following code return: `Boolean(10 > 9)`?",
+        question: "What keyword is used to exit a loop?",
         options: [
-            { choice: "true", isCorrect: true },
-            { choice: "false", isCorrect: false },
+            { choice: "break", isCorrect: true },
+            { choice: "exit", isCorrect: false },
             { choice: "NaN", isCorrect: false },
             { choice: "undefined", isCorrect: false }
         ]
@@ -491,11 +491,11 @@ export const jsQuestions = [
     },
     {
         id: 50,
-        question: "What will the following code output: `console.log(1 == '1');`?",
+        question: "What does the 'typeof' operator return for an array?",
         options: [
-            { choice: "true", isCorrect: true },
-            { choice: "false", isCorrect: false },
-            { choice: "NaN", isCorrect: false },
+            { choice: "object", isCorrect: true },
+            { choice: "values", isCorrect: false },
+            { choice: "numbers", isCorrect: false },
             { choice: "TypeError", isCorrect: false }
         ]
     }
